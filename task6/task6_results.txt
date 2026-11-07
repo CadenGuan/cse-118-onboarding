@@ -1,0 +1,132 @@
+==================================================
+PROMPT 1 [A - Open-Ended]
+==================================================
+INPUT:
+Please summarize the primary causes of the 2008 global financial crisis in exactly three paragraphs. Be sure to mention the roles of subprime mortgages, collateralized debt obligations (CDOs), and the failure of major financial institutions.
+
+OUTPUT:
+The 2008 global financial crisis was triggered by several interconnected factors that culminated in widespread economic turmoil across multiple countries. The primary cause is often attributed to the rapid expansion of the housing market fueled by subprime mortgage-backed securities.
+
+Subprime mortgages were loans made to borrowers with poor credit histories or low incomes who could not afford the full cost of home ownership. These loans were packaged into complex financial instruments known as collateralized debt obligations (CDOs). CDOs were designed to be sold to investors seeking higher returns than those available from traditional bonds but without taking on significant risk themselves. 
+
+However, the complexity of these financial products led to a phenomenon called "too big to fail," where large financial institutions faced systemic risks due to their size and interconnections within the financial system. In this context, the largest banks became dependent on each other for liquidity, creating a domino effect when one institution failed.
+
+The combination of high-risk lending practices and the reliance on complex financial derivatives contributed to the severity of the crisis. When the housing bubble burst, defaults on subprime mortgages increased significantly. This created pressure on the CDO markets because many CDOs had been structured to rely heavily on the performance of underlying mortgage assets. As these assets declined in value, the losses
+
+==================================================
+PROMPT 2 [A - Open-Ended]
+==================================================
+INPUT:
+Explain the concept of quantum entanglement to a 10-year-old child. You must use an everyday analogy that a child would easily understand (for example, a pair of magic gloves or a pair of socks) and avoid using complex physics jargon.
+
+OUTPUT:
+Quantum entanglement is like having two magic gloves that always feel each other's touch no matter how far apart they are. If you shake hands with your friend wearing one glove, it feels the same warmth from their hand even if they're sitting across the room! The magical property where these gloves can instantly sense each other’s temperature regardless of distance is similar to what happens in quantum entanglement between particles. This means that once something happens to one particle, its partner particle will know about it almost instantaneously, no matter how far away they are. It’s a bit like being able to see through invisible walls!
+
+==================================================
+PROMPT 3 [A - Open-Ended]
+==================================================
+INPUT:
+Compare the ethical implications of autonomous vehicles versus human drivers in edge-case accident scenarios. Specifically, discuss the 'Trolley Problem' variations that AI systems must be programmed to handle, and argue whether an AI should prioritize the lives of its passengers or pedestrians.
+
+OUTPUT:
+The "Trolley Problem" is a classic thought experiment often used in philosophy to explore moral decision-making. It involves two options: either you can pull the lever to stop a runaway trolley from killing five people by diverting it onto a track where only one person will die, or you can push a fat man off a bridge so he falls onto the trolley tracks and stops it from killing five people.
+
+In the context of autonomous vehicles (AVs), we need to consider similar ethical dilemmas but with different outcomes. Let's compare these scenarios between AVs and humans:
+
+1. **AV vs Human Driver Scenario 1**: A pedestrian suddenly steps into the path of an AV while driving at high speed on a city street. The AV has the option to swerve sharply to avoid hitting the pedestrian, potentially causing damage to other cars or pedestrians nearby, or to continue straight ahead, which would result in the death of the pedestrian.
+
+   - **Ethical Implications**:
+     - If the AV prioritizes passenger safety (which many AV developers aim for), it might choose to swerve, risking potential harm to other road users.
+     - Alternatively, if the goal is to maximize overall life safety, the AV could calculate the best outcome based on probabilities of collision with
+
+==================================================
+PROMPT 4 [B - Rule-Based]
+==================================================
+INPUT:
+You are a formal logic engine. Follow the rules of syllogism.
+Rule: If All X are Y, and All Y are Z, then All X are Z.
+
+Example 1: All dogs are mammals. All mammals are animals. Therefore, all dogs are animals.
+Example 2: All roses are flowers. All flowers are plants. Therefore, all roses are plants.
+
+New Case to Solve: All robots are machines. All machines require electricity. Therefore, what can we conclude about robots? Answer with the conclusion only.
+
+OUTPUT:
+Therefore, all robots require electricity.
+
+==================================================
+PROMPT 5 [B - Rule-Based]
+==================================================
+INPUT:
+You are a math tutor. Solve word problems by breaking them down step-by-step.
+Rule: First, identify the total budget. Second, subtract the fixed costs. Third, divide the remaining budget by the cost per item to find the maximum quantity.
+
+Example: A student has $50. They spend $10 on a textbook. They want to buy notebooks that cost $5 each. $50 - $10 = $40. $40 / $5 = 8 notebooks.
+
+New Case to Solve: A club has $150. They spend $30 on venue rental. They want to buy pizzas that cost $12 each. Show your step-by-step math to find how many pizzas they can buy.
+
+OUTPUT:
+Sure! Let's break this problem down step-by-step:
+
+Step 1: Identify the total budget.
+The club has a total of $150.
+
+Step 2: Subtract the fixed costs (venue rental).
+The club spends $30 on venue rental. So we need to subtract this from their total budget:
+$150 - $30 = $120
+
+Step 3: Divide the remaining budget by the cost per item (pizza).
+Each pizza costs $12. We now divide the remaining budget ($120) by the cost per pizza ($12):
+$120 ÷ $12 = 10 pizzas
+
+So, the club can buy 10 pizzas with their remaining budget after accounting for the venue rental fee.
+
+==================================================
+PROMPT 6 [B - Rule-Based]
+==================================================
+INPUT:
+You are a data parsing assistant. Convert messy text into a strict CSV format.
+Rule: Extract the Name, Age, and City. Format as: Name, Age, City. Do not include any other text.
+
+Example Input: 'Hey, my name is John, I am 25 years old, and I live in New York.'
+Example Output: John, 25, New York
+
+New Input to Process: 'Hi there! I'm Sarah, currently 30 years of age, and I'm based out of London.' Output:
+
+OUTPUT:
+Sarah, 30, London
+
+==================================================
+PROMPT 7 [C - Single-Word]
+==================================================
+INPUT:
+Read the premise and hypothesis carefully. Determine the relationship. Answer strictly with exactly one word: 'Entailment', 'Contradiction', or 'Neutral'. Do not use any punctuation or extra text.
+Premise: A man is walking a black dog in the park.
+Hypothesis: The man is walking a pet.
+Answer:
+
+OUTPUT:
+Entailment
+
+==================================================
+PROMPT 8 [C - Single-Word]
+==================================================
+INPUT:
+Evaluate the scenario for plausibility. Answer strictly with exactly one word: 'Possible' or 'Impossible'. Do not use any punctuation or extra text.
+Scenario: A person is swimming deep underwater in the ocean without any scuba gear or breathing apparatus for 45 minutes.
+Answer:
+
+OUTPUT:
+Impossible
+
+==================================================
+PROMPT 9 [C - Single-Word]
+==================================================
+INPUT:
+Read the multi-step statement and evaluate its truth value. Answer strictly with exactly one word: 'True' or 'False'. Do not use any punctuation or extra text.
+Statement: If all birds can fly, and penguins are birds, then penguins can fly.
+Answer:
+
+OUTPUT:
+False
+
