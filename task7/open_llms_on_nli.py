@@ -1,5 +1,4 @@
 import torch
-import evaluate
 import numpy as np
 from datasets import load_dataset
 from transformers import (
