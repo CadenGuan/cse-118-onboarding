@@ -205,7 +205,6 @@ training_args = SFTConfig(
 
     learning_rate=LEARNING_RATE,
     lr_scheduler_type="cosine",
-    warmup_ratio=0.03,
     weight_decay=0.01,
     max_grad_norm=1.0,
 
